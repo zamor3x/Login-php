@@ -41,10 +41,11 @@
                         $_SESSION['Id'] = $Id;
                         $_SESSION['NombreUsuario'] = $NombreUsuario;
                         $_SESSION['NombreCompleto'] = $NombreCompleto;
-
+                       
+                        
                         echo "<script>
                             alert('Bienvenido $NombreCompleto');
-                            location.href = '../dashboard/index.html'
+                            location.href = '../dashboard/index.php'
                         </script>";
                     }else {
                         header('Location:../Index.php?error=Usuario o clave incorrecta');
