@@ -1,0 +1,14 @@
+===Base de datos dbsistema
+
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**Id**//|int(11)|No|
+|NombreCompleto|varchar(255)|No|
+|NombreUsuario|varchar(255)|No|
+|Clave|varchar(255)|No|
+== Volcado de datos para la tabla usuarios
+
+|4|Jose David Zamora|admin|$2y$10$8xPiisappxhv46MaeC6V2e5r77tQ0jey7AHeOtf8n12B/OM3Gxc1S
