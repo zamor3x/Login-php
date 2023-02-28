@@ -44,7 +44,7 @@
 
                         echo "<script>
                             alert('Bienvenido $NombreCompleto');
-                            location.href = '../Home.php'
+                            location.href = '../dashboard/index.html'
                         </script>";
                     }else {
                         header('Location:../Index.php?error=Usuario o clave incorrecta');
